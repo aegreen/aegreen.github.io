@@ -1,0 +1,17 @@
+ul {
+  list-style: none;
+}
+.face {
+  float: left;
+  margin-left: 5%;
+  width: 25%;
+}
+.desc {
+  margin-left: 35%
+}
+#main-wrapper {
+  padding-top: 65px;
+  padding-bottom: 85px;
+  position: relative;
+  z-index: 6;
+}

@@ -1,26 +1,37 @@
 <html>
 <head>
   <title>Alice Green | Web Designer & Developer</title>
-  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  <div id="all-contents">
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Paintings</a></li>
-        <li><a href="/photography">Photography</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
+  <div>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="#">Home</a></li>
+          <li class="active"><a href="/about.html">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="portfolio.html">Photography</a></li>
+        </ul>
+        </div>
+      </div>
     </nav>
+  
     <main>
-      <img src="https://pbs.twimg.com/profile_images/501946032452685824/JdIwl9fr.jpeg" alt="Alice's Face" class="img-circle">
-      <h1 align="center">Designer | Developer | Artist</h1>
-      <p>Hi! My name is Alice Green and I love to learn!</p>
-      <p>I'm a NOLA native with an interest in design, web development, and art. Take a look at my paintings, photography, letering art, and development portfolio.</p>
+      <div class="jumbotron">
+        <img src="https://pbs.twimg.com/profile_images/501946032452685824/JdIwl9fr.jpeg" alt="Alice's Face" class="img-circle img-responsive face">
+        <h1 align="center">Designer | Developer | Artist</h1>
+        <div class="desc">
+          <p>Hi! My name is Alice Green and I love to learn!</p>
+          <p>I'm a NOLA native with an interest in design, web development, and art. Take a look at my paintings, photography, lettering art, and development portfolio.</p>
+        </div>
+      </div>
     </main>
   </div>
   <div class="container">
