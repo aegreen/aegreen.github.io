@@ -10,3 +10,7 @@ a:link {
 h1 {
   font-weight: bold;
 }
+.photo {
+  width: 300;
+  float: right;
+}
