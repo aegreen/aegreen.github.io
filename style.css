@@ -7,10 +7,26 @@ a:link {
   font-style: italic;
   text-decoration: none;
 }
+a:hover {
+  color: aqua;
+}
 h1 {
   font-weight: bold;
 }
 .photo {
   width: 300;
   float: right;
+  margin: 0 30px;
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 20px;
+  }
+  .photo {
+    width: 250px;
+    float: none;
+    text-align: center;  
+  }
+  
 }
